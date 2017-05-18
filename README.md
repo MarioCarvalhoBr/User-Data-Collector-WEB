@@ -9,24 +9,25 @@
 @E-mail: mariodearaujocarvalho@gmail.com
 
 @Descrição: 
-Classe utilitária para coletar dados so usuário para fins de seguraça. O mal 
-uso desta biblioteca fica a responsabilidade do usuário. A idéia é criar uma interface para
-coletar dados do usuário para fins de seguranção da informação. Não nós responsabilizamos
-pelos seus atos, o conhecimento não é crime, o seu mal uso é. 
-Lembre-se: "Você é o culpado de suas acções" - Jean Paul Sarte. Tenha essa frase tatuado no seu coração.
+Classe utilitária para coletar dados so usuário para <b>fins de segurança</b>. O mal 
+uso desta biblioteca fica a responsabilidade do usuário. A ideia é criar uma interface para
+coletar dados do usuário para fins de seguranção da informação. <i>Não nós responsabilizamos
+pelos seus atos, o conhecimento não é crime, o seu mal uso é</i>. 
+Lembre-se: <strong>"Você é o culpado de suas ações"</strong>" <i>- Jean Paul Sarte.</i> Tenha essa frase tatuado no seu coração.
+
 @Funções da Biblioteca:
 01: COLETA O IP DO USUÁRIO.
-02: COLETA A DATA E HORÁRIO DE BRASÍLA QUE O USUÁRIO ACESSO O SITE.
-03: COLETA O SISTEMA OPERACIONAL DO USUARIO.
+02: COLETA A DATA E HORÁRIO (HORÁRIO DE BRASÍLA) QUE O USUÁRIO ACESSOU O SITE.
+03: COLETA O SISTEMA OPERACIONAL DO USUÁRIO.
 04: COLETA O NAVEGADOR DO USUARIO.
 05. COLETA O DISPOSITIVO DO USUÁRIO.
 06. COLETA A LATITUDE E LONGITUDE DO USUÁRIO COM BASE NO IP.
-07. COLETA ALGUNS DETALHES ÚTEIS DO USUÁRIO E DO SEU NAVEGADOR
+07. COLETA ALGUNS DETALHES ÚTEIS DO USUÁRIO E DO SEU NAVEGADOR.
 
 @Funções Futuras:
-I - COLETAR O ENDEREÇO MAC DO USUÁRIO LINUX E WINDOWS.
+I - COLETAR O ENDEREÇO MAC DO USUÁRIO NO LINUX E WINDOWS.
 
-OBS: Use com responsabilidade.
+OBS: Use com responsabilidade, o mal uso desta biblioteca pode lhe trazer sérios problemas com as leis vigentes em seu país.
 
 </pre>
 
@@ -77,7 +78,9 @@ OBS: Use com responsabilidade.
   ```
   
   </br>
-  <b>Seja livre para contribuir com o projeto, usando-o e melhorando</b></br>
+  <b>Seja livre para contribuir com o projeto, usando-o e melhorando.</b>
+  </br>
+  </br>
 
 <b>Seu site usa essa biblioteca? Você pode promovê-lo aqui! Basta enviar o seu pedido que serei feliz em divulgar.</b>
 
