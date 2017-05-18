@@ -32,7 +32,7 @@ OBS: <i>Use com responsabilidade, o mal uso desta biblioteca pode </br>lhe traze
 
 </pre>
 
-<b>ABAIXO segue uma breve DOCUMENTAÇÃO sobre a utilização da biiblioteca.</b>
+<b>ABAIXO segue uma breve DOCUMENTAÇÃO sobre a utilização da biblioteca.</b>
 
  ```php
 		/*Exemplo de utilização da biblioteca*/
