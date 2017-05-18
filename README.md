@@ -3,6 +3,7 @@
 
 <pre>
 @Nome: User Data Collector WEB - Biblioteca para coletação de dados.
+@Mini-Descrição: É uma biblioteca utilitária para coletar dados do cliente em páginas online PHP.
 @Versão: 1.0.0
 
 @Autor: Mario de Araújo Carvalho 
@@ -13,7 +14,7 @@ Classe utilitária para coletar dados so usuário para <b>fins de segurança</b>
 uso desta biblioteca fica a responsabilidade do usuário. A ideia é criar uma interface para
 coletar dados do usuário para fins de seguranção da informação. <i>Não nós responsabilizamos
 pelos seus atos, o conhecimento não é crime, o seu mal uso é</i>. 
-Lembre-se: <strong>"Você é o culpado de suas ações"</strong>" <i>- Jean Paul Sarte.</i> Tenha essa frase tatuado no seu coração.
+Lembre-se: <strong>"Você é o culpado de suas ações"</strong>" <i>- Jean Paul Sarte.</i> Tenha essa frase tatuada em seu coração :).
 
 @Funções da Biblioteca:
 01: COLETA O IP DO USUÁRIO.
@@ -27,7 +28,7 @@ Lembre-se: <strong>"Você é o culpado de suas ações"</strong>" <i>- Jean Paul
 @Funções Futuras:
 I - COLETAR O ENDEREÇO MAC DO USUÁRIO NO LINUX E WINDOWS.
 
-OBS: Use com responsabilidade, o mal uso desta biblioteca pode lhe trazer sérios problemas com as leis vigentes em seu país.
+OBS: <i>Use com responsabilidade, o mal uso desta biblioteca pode </br>lhe trazer sérios problemas com as leis vigentes em seu país.</>
 
 </pre>
 
