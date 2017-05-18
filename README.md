@@ -1,6 +1,7 @@
 # UserDataCollectorWEB
-UserDataCollectorWEB 1.0.0 - Is Utility library for client data collection on PHP pages.
+<strong>UserDataCollectorWEB 1.0.0 - Is Utility library for client data collection on PHP pages.</strong>
 
+<pre>
 @Nome: User Data Collector WEB - Biblioteca para coletação de dados.
 @Versão: 1.0.0
 
@@ -26,6 +27,8 @@ Lembre-se: "Você é o culpado de suas acções" - Jean Paul Sarte. Tenha essa f
 I - COLETAR O ENDEREÇÕ MAC DO USUÁRIO LINUX E WINDOWS.
 
 OBS: Use com responsabilidade.
+
+</pre>
 
 <b>ABAIXO segue uma breve DOCUMENTAÇÃO sobre a utilização da biiblioteca.</b>
 
