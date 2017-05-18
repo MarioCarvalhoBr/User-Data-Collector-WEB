@@ -24,7 +24,7 @@ Lembre-se: "Você é o culpado de suas acções" - Jean Paul Sarte. Tenha essa f
 07. COLETA ALGUNS DETALHES ÚTEIS DO USUÁRIO E DO SEU NAVEGADOR
 
 @Funções Futuras:
-I - COLETAR O ENDEREÇÕ MAC DO USUÁRIO LINUX E WINDOWS.
+I - COLETAR O ENDEREÇO MAC DO USUÁRIO LINUX E WINDOWS.
 
 OBS: Use com responsabilidade.
 
