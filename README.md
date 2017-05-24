@@ -10,7 +10,7 @@
 @E-mail: mariodearaujocarvalho@gmail.com
 
 @Descrição: 
-Classe utilitária para coletar dados so usuário para <b>fins de segurança</b>. O mal 
+Classe utilitária para coletar dados do usuário para <b>fins de segurança</b>. O mal 
 uso desta biblioteca fica a responsabilidade do usuário. A ideia é criar uma interface para
 coletar dados do usuário para fins de seguranção da informação. <i>Não nós responsabilizamos
 pelos seus atos, o conhecimento não é crime, o seu mal uso é</i>. 
