@@ -17,7 +17,7 @@
 /*  limitations under the License.											 */
 /*****************************************************************************/
 /*
-	@Nome: User Data Collector WEB - Biblioteca para coletação de dados.
+	@Nome: Data Collector WEB - Biblioteca para coletação de dados.
 	@Versão: 1.0.0
 	
 	@Autor: Mario de Araújo Carvalho 
@@ -212,10 +212,28 @@ class User_Information{
 	
 	//06. COLETA A LATITUDE E LONGITUDE DO USUÁRIO COM BASE NO IP.
 	public function getLocalizacao(){
-		$ip_do_usuario = $this->get_IP();
-		$geo_localizacao  = json_decode(file_get_contents("http://freegeoip.net/json/$ip_do_usuario"), true);
-		
+		 $geo_localizacao['latitude'] = '0.00';
+		 $geo_localizacao['longitude'] = '0.00';
+		if($this->isConnected()){
+			$ip_do_usuario = $this->get_IP();
+			$geo_localizacao  = json_decode(file_get_contents("http://freegeoip.net/json/$ip_do_usuario"), true);
+		}else{
+			//Implements TODO
+			$geo_localizacao['latitude'] = '0.00';
+			$geo_localizacao['longitude'] = '0.00';
+		}
 		return $geo_localizacao;
+	}
+	
+	//6.1. VERIFICA SE O USUARIO ESTA CONNECTADO COM A INTERNET
+	public function isConnected(){
+		// Usar a porta 80 para verificar o http ou a porta 443 para o protocolo https
+		$connected = @fsockopen("www.google.com", 80);
+		if ($connected){
+			fclose($connected);
+			return true; 
+		}
+		return false;
 	}
 	//07. COLETA ALGUNS DETALHES ÚTEIS DO USUÁRIO E DO SEU NAVEGADOR
 	public function getMaisDetalhesUserAndBrowser(){
@@ -223,5 +241,9 @@ class User_Information{
 		
 		return $more_details;
 	}
-
+	
+	/*
+	* Futuramente!
+	* http://simplehtmldom.sourceforge.net/
+	*/
 }
