@@ -36,19 +36,20 @@ OBS: <i>Use com responsabilidade, o mal uso desta biblioteca pode </br>lhe traze
 
  ```php
 		/*Exemplo de utilização da biblioteca*/
-
+	
 		//Codificação da Página
 		ini_set('default_charset','UTF-8');
-
+		
 		//Inclusão da biblioteca User Data Collector WEB 1.0.0
-		include_once('UserDataCollectorWEB.php');	
-
+		include_once('UserInformation.php'); // Nome da Classe igual ao nome do arquivo!
+		use UserDataCollector\UserInformation as InfosUser; // Posso nomear como bem entender ao usar namespace
+		
 		//Definição da zona para poder pegar o horário do usuário.
 		date_default_timezone_set('America/Sao_Paulo');
 
-		//Instancia da Classe UserDataCollector
-		$user_informations = new User_Information();
-
+		//Instancia da Classe UserInformation
+		$user_informations = new InfosUser();
+		
 		//Coletando o horário
 		echo 'Horário de Acesso (Brasília): '.$user_informations->get_Data_Horario();
 		echo("<br>");
@@ -65,9 +66,9 @@ OBS: <i>Use com responsabilidade, o mal uso desta biblioteca pode </br>lhe traze
 		echo 'Mais detalhes sobre o navegador e SO: '.$user_informations->getMaisDetalhesUserAndBrowser();
 		echo("<br>");
 		//Coletando o disposivo do usuário
-		echo 'Horário de Acesso (Brasília): '.$user_informations->get_Device_User();
+		echo 'Dispositivo de Acesso: '.$user_informations->get_Device_User();
 		echo("<br>");
-
+		
 		/**Coletando a geolocalização
 		 **OBS: No localhost não ira funcionar. Pois você precisará fornecer um IP conectado na WEB.
 		 **
