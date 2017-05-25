@@ -46,7 +46,7 @@
 	echo 'Mais detalhes sobre o navegador e SO: '.$user_informations->getMaisDetalhesUserAndBrowser();
 	echo("<br>");
 	//Coletando o disposivo do usuário
-	echo 'Horário de Acesso (Brasília): '.$user_informations->get_Device_User();
+	echo 'Dispositivo de Acesso: '.$user_informations->get_Device_User();
 	echo("<br>");
 	
 	/**Coletando a geolocalizacao**/

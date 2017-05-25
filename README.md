@@ -68,7 +68,10 @@ OBS: <i>Use com responsabilidade, o mal uso desta biblioteca pode </br>lhe traze
 		echo 'Horário de Acesso (Brasília): '.$user_informations->get_Device_User();
 		echo("<br>");
 
-		/**Coletando a geolocalizacao**/
+		/**Coletando a geolocalização
+		 **OBS: No localhost não ira funcionar. Pois você precisará fornecer um IP conectado na WEB.
+		 **
+		 **/
 		$geo_localizacao  = $user_informations->getLocalizacao();
 		//Coletando a latitude do usuário
 		echo 'Latitude: '.$geo_localizacao['latitude'];
