@@ -212,7 +212,7 @@ class UserInformation{
 	        }   
 	}
 	
-	//06. COLETA A LATITUDE E LONGITUDE DO USUÁRIO COM BASE NO IP.
+	//6.0 COLETA A LATITUDE E LONGITUDE DO USUÁRIO COM BASE NO IP.
 	public function getLocalizacao(){
 		 $geo_localizacao['latitude'] = '0.00';
 		 $geo_localizacao['longitude'] = '0.00';
