@@ -4,7 +4,7 @@
 <pre>
 @Nome: User Data Collector WEB - Biblioteca para coletação de dados.
 @Mini-Descrição: É uma biblioteca utilitária para coletar dados do cliente em páginas online PHP.
-@Versão: 1.0.0
+@Versão: 1.0.0.
 
 @Autor: Mario de Araújo Carvalho 
 @E-mail: mariodearaujocarvalho@gmail.com
