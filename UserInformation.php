@@ -218,7 +218,7 @@ class UserInformation{
 		 $geo_localizacao['longitude'] = '0.00';
 		if($this->isConnected()){
 			$ip_do_usuario = $this->get_IP();
-			$geo_localizacao  = json_decode(file_get_contents("http://freegeoip.net/json/$ip_do_usuario"), true);
+			$geo_localizacao  = json_decode(file_get_contents("http://freegeoip.app/json/$ip_do_usuario"), true);
 		}else{
 			//Implements TODO
 			$geo_localizacao['latitude'] = '0.00';
